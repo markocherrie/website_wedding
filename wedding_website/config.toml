@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://markandemma.netlify.com/"
 languageCode = "en-us"
 title = "Hugo Freelancer Theme"
 theme = "hugo-freelancer-theme"
@@ -12,7 +12,7 @@ theme = "hugo-freelancer-theme"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Mark and Emma's Wedding 2017"
+    name = "Mark and Emma's Wedding 2018"
     description = "Cherrie wedding"
 
     # Since this template is static, the contact form uses www.formspree.io as a
