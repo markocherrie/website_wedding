@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "{{ \"<!-- Header -->\" | safeHTML }}\n<header>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12\">\n                <img class=\"img-responsive\" src=\"img/{{ with .Site.Params.header.image }}{{ . }}{{ else }}profile.png{{ end }}\" alt=\"\">\n                <div class=\"intro-text\">\n                    <span class=\"name\">{{ with .Site.Params.header.name }}{{ . }}{{ end }}</span>\n                    <hr class=\"star-light\">\n                    <span class=\"skills\">{{ with .Site.Params.header.subtitle }}{{ . }}{{ end }}</span>\n                </div>\n            </div>\n        </div>\n    </div>\n</header>\n",
+    "created" : 1508273885769.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2749904081",
+    "id" : "C4654B68",
+    "lastKnownWriteTime" : 1508258610,
+    "last_content_update" : 1508258610,
+    "path" : "~/Desktop/wedding_stationary/website/wedding_website/themes/hugo-freelancer-theme/layouts/partials/header.html",
+    "project_path" : "themes/hugo-freelancer-theme/layouts/partials/header.html",
+    "properties" : {
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}

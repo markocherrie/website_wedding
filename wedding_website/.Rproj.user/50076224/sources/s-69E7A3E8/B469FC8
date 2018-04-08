@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "<!DOCTYPE html>\n<html lang=\"{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}\">\n    <head>\n        {{ partial \"head.html\" . }}\n    </head>\n    <body id=\"page-top\" class=\"index\">\n\n        {{ partial \"nav.html\" . }}\n\n        {{ partial \"header.html\" . }}\n        {{ partial \"about.html\" . }}\n        {{ partial \"portfolio-grid.html\" . }}\n      \n        {{ partial \"contact.html\" . }}\n\n        {{ partial \"footer.html\" . }}\n        {{ partial \"modals.html\" . }}\n        {{ partial \"js.html\" . }}\n\n    </body>\n</html>\n",
+    "created" : 1508273952303.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4256654071",
+    "id" : "B469FC8",
+    "lastKnownWriteTime" : 1508273969,
+    "last_content_update" : 1508273969137,
+    "path" : "~/Desktop/wedding_stationary/website/wedding_website/themes/hugo-freelancer-theme/layouts/index.html",
+    "project_path" : "themes/hugo-freelancer-theme/layouts/index.html",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}

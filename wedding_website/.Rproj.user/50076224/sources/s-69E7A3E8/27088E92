@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "name = \"Freelancer\"\nlicense = \"Apache License 2.0\"\nlicenselink = \"//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/LICENSE\"\ndescription = \"A one page HTML theme for freelancers.\"\nhomepage = \"//github.com/digitalcraftsman/hugo-freelancer-theme\"\ntags = [\"freenlancer\", \"portfolio\"]\nfeatures = [\"responsive\", \"contact form\", \"portfolio\", \"substitutable strings\"]\nmin_version = 0.14\n\n[author]\n  name = \"digitalcraftsman\"\n  homepage = \"//github.com/digitalcraftsman\"\n\n# If porting an existing theme\n[[original]]\n  # Creator of the original Bootstrap theme\n  name = \"David Miller\"\n  homepage = \"//www.ironsummitmedia.com/\"\n  repo = \"//github.com/IronSummitMedia/startbootstrap-freelancer\"\n\n[[original]]\n  # Creator of the ported Jekyll theme\n  name = \"Jerome Lachaud\"\n  homepage = \"//jeromelachaud.com/\"\n  repo = \"//github.com/jeromelachaud/freelancer-theme\"\n",
+    "created" : 1508273781985.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1387348775",
+    "id" : "27088E92",
+    "lastKnownWriteTime" : 1508258610,
+    "last_content_update" : 1508258610,
+    "path" : "~/Desktop/wedding_stationary/website/wedding_website/themes/hugo-freelancer-theme/theme.toml",
+    "project_path" : "themes/hugo-freelancer-theme/theme.toml",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

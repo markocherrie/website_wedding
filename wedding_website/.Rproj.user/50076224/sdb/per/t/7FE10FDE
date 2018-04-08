@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "{{ \"<!-- Portfolio Grid Section -->\" | safeHTML }}\n<section id=\"portfolio\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 text-center\">\n                <h2>{{ with .Site.Params.portfolio.title }}{{.}}{{end}}</h2>\n                <hr class=\"star-primary\">\n            </div>\n        </div>\n        <div class=\"row\">\n            {{ range $.Site.Data.projects }}\n            <div class=\"col-sm-4 portfolio-item\">\n                <a href=\"#portfolioModal{{ .modalID }}\" class=\"portfolio-link\" data-toggle=\"modal\">\n                    <div class=\"caption\">\n                        <div class=\"caption-content\">\n                            <i class=\"fa fa-search-plus fa-3x\"></i>\n                        </div>\n                    </div>\n                    <img src=\"img/portfolio/{{ .img }}\" class=\"img-responsive\">\n                </a>\n            </div>\n            {{ end }}\n        </div>\n    </div>\n</section>\n",
+    "created" : 1508273804328.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1436875839",
+    "id" : "7FE10FDE",
+    "lastKnownWriteTime" : 1508258610,
+    "last_content_update" : 1508258610,
+    "path" : "~/Desktop/wedding_stationary/website/wedding_website/themes/hugo-freelancer-theme/layouts/partials/portfolio-grid.html",
+    "project_path" : "themes/hugo-freelancer-theme/layouts/partials/portfolio-grid.html",
+    "properties" : {
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}

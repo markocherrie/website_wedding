@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "{{ \"<!-- About Section -->\" | safeHTML }}\n<section class=\"success\" id=\"about\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 text-center\">\n                <h2>{{ with .Site.Params.about.title }}{{.}}{{ end }}</h2>\n                <hr class=\"star-light\">\n            </div>\n        </div>\n    <div class=\"row\">\n        <div class=\"col-lg-4 col-lg-offset-2\">\n            <p>{{ with .Site.Params.about.left }}{{ . | markdownify }}{{ end }}</p>\n        </div>\n            <div class=\"col-lg-4\">\n                <p>{{ with .Site.Params.about.right }}{{ . | markdownify }}{{ end }}</p>\n            </div>\n            <div class=\"col-lg-8 col-lg-offset-2 text-center\">\n                <a href=\"{{ with .Site.Params.about.button.link }}{{.}}{{ end }}\" class=\"btn btn-lg btn-outline\">\n                    <i class=\"fa fa-{{ with .Site.Params.about.button.icon }}{{.}}{{end}}\"></i> {{ with .Site.Params.about.button.text }}{{ . }}{{ end }}\n                </a>\n            </div>\n        </div>\n    </div>\n</section>\n",
+    "created" : 1508273989192.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "989978797",
+    "id" : "63ACF79F",
+    "lastKnownWriteTime" : 1508258610,
+    "last_content_update" : 1508258610,
+    "path" : "~/Desktop/wedding_stationary/website/wedding_website/themes/hugo-freelancer-theme/layouts/partials/about.html",
+    "project_path" : "themes/hugo-freelancer-theme/layouts/partials/about.html",
+    "properties" : {
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}

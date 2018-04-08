@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\nsite: blogdown:::blogdown_site\n---\n",
+    "created" : 1508273742930.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1542943790",
+    "id" : "F525DD0E",
+    "lastKnownWriteTime" : 1508258610,
+    "last_content_update" : 1508258610,
+    "path" : "~/Desktop/wedding_stationary/website/wedding_website/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

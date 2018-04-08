@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "{{ \"<!-- Navigation -->\" | safeHTML }}\n<nav class=\"navbar navbar-default navbar-fixed-top\">\n    <div class=\"container\">\n        {{ \"<!-- Brand and toggle get grouped for better mobile display -->\" | safeHTML }}\n        <div class=\"navbar-header page-scroll\">\n            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n                <span class=\"sr-only\">Toggle navigation</span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n            </button>\n            <a class=\"navbar-brand\" href=\"#page-top\">{{ with .Site.Params.navigation.brand }}{{ . }}{{ end }}</a>\n        </div>\n        {{ \"<!-- Collect the nav links, forms, and other content for toggling -->\" | safeHTML }}\n        <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n            <ul class=\"nav navbar-nav navbar-right\">\n                <li class=\"hidden\">\n                    <a href=\"#page-top\"></a>\n                </li>\n                 <li class=\"page-scroll\">\n                    <a href=\"#portfolio\">{{ with .Site.Params.portfolio.title }}{{ . }}{{ end }}</a>\n                </li>\n              <li class=\"page-scroll\">\n                    <a href=\"#about\">{{ with .Site.Params.about.title }}{{ . }}{{ end }}</a>\n                </li>\n                <li class=\"page-scroll\">\n                    <a href=\"#contact\">{{ with .Site.Params.contact.title }}{{ . }}{{ end }}</a>\n                </li>\n            </ul>\n        </div>\n        {{ \"<!-- /.navbar-collapse -->\" | safeHTML }}\n    </div>\n    {{ \"<!-- /.container-fluid -->\" | safeHTML }}\n</nav>\n",
+    "created" : 1508273811629.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "614680016",
+    "id" : "185016B9",
+    "lastKnownWriteTime" : 1508273851,
+    "last_content_update" : 1508273851907,
+    "path" : "~/Desktop/wedding_stationary/website/wedding_website/themes/hugo-freelancer-theme/layouts/partials/nav.html",
+    "project_path" : "themes/hugo-freelancer-theme/layouts/partials/nav.html",
+    "properties" : {
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}
